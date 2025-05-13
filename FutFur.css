@@ -738,10 +738,18 @@
  .Features {
    display: flex;
    justify-content: center;
-   align-items: start;
+   align-items: center;
+   flex-direction: column;
    padding: 15px;
  }
 
+ .Features h1 {
+   color: var(--text-color);
+   margin: 70px 0;
+   font-size: clamp(5px, 5vw, 30px);
+   font-family: sans-serif;
+   font-weight: 50;
+ }
 
  .list {
    column-count: 3;
@@ -961,14 +969,15 @@
      padding: 0 0;
    }
 
-   .offers {
+    .offers {
+     bottom: -6%;
      display: flex;
      flex-wrap: wrap;
-     gap: 10px;
+     gap: 15px;
    }
 
    .offers img {
-     width: 60px;
+     width: 40px;
    }
 
    .about-img {
