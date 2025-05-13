@@ -744,7 +744,7 @@
  }
 
  .Features h1 {
-   color: var(--text-color);
+   color: black;
    margin: 70px 0;
    font-size: clamp(5px, 5vw, 30px);
    font-family: sans-serif;
